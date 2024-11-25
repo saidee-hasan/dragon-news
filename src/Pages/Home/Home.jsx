@@ -57,8 +57,8 @@ setNewses(newsData)
       <BreakingNews />
       <Navbar />
       <div className='grid md:grid-cols-4 mx-auto'>
-        <div>
-          <LeftSideNav sortingCategory={sortingCategory} category={category} />
+        <div className="">
+                    <LeftSideNav sortingCategory={sortingCategory} category={category} />
         </div>
         <div className='md:col-span-2'>
           <h1 className='text-neutral-700 text-xl font-semibold mb-4'>Dragon News Home</h1>
