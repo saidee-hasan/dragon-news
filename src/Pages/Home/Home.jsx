@@ -53,7 +53,7 @@ setNewses(newsData)
   return (
     <>
    <div>
-    
+      <Header />
       <BreakingNews />
       <Navbar />
       <div className='grid md:grid-cols-4 mx-auto'>
