@@ -9,7 +9,7 @@ const Qzone = () => {
       <h3 className='text-2xl mb-6 font-bold md:text-start md:ms-2'>Q-Zone</h3>
 <div className='space-y-12'>
 <img className='mx-auto' src={qZone1} alt="qZone1" />
-<img className='mx-auto' src={qZone2} alt="qZone2" /
+<img className='mx-auto' src={qZone2} alt="qZone2" />
 <img className='mx-auto' src={qZone3} alt="qZone3" />
 </div>
     </div>
