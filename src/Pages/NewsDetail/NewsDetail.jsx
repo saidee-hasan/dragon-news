@@ -17,7 +17,7 @@ console.log(mainDetails)
                 <Helmet>
         <title>News Details | The Dragon News</title>
       </Helmet>
-    <Header />
+
     <Navbar />
     <div className='grid sm:grid-cols-4 justify-center'>
 <div className='sm:col-span-3 mx-2'>
