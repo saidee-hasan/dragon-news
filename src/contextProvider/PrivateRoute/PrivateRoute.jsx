@@ -8,7 +8,7 @@ const {user} = useContext(OurContext)
 const location = useLocation()
 console.log('location', location)
 if(user){
-  return childr
+  return children;
 } 
  return <Navigate state={location.pathname} to={'/login'} />
 
