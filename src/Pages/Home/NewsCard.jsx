@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom';
 const NewsCard = ({ news }) => {
   const { title, details, total_view, rating, image_url, author,_id } = news;
 
+
+
+
+  
+
   return (
     <div className="w-full px-2 shadow-sm">
       <div className="flex justify-between items-center px-2 mx-2 py-2 bg-zinc-100 rounded-tl-[5px] rounded-tr-[5px] border border-zinc-100">
